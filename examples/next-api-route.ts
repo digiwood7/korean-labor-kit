@@ -7,8 +7,8 @@
  * next 패키지 없이도 그대로 실행되며, 아래 handler 함수 본문을 그대로
  * `app/api/certificate/route.ts` 의 `POST` 로 옮기면 실제 라우트가 된다.
  */
-import { buildEmploymentCertificateHtml } from "../src/certificate/index.js";
-import { calcRegularOvertimePay } from "../src/overtime/index.js";
+import { buildEmploymentCertificateHtml } from "../src/certificate/index";
+import { calcRegularOvertimePay } from "../src/overtime/index";
 
 /**
  * 실제 Next.js에서는 이렇게 쓴다:

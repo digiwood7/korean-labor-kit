@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   buildEmploymentCertificateHtml,
   type CertificateInput,
-} from "./employmentCertificate.js";
+} from "./employmentCertificate";
 
 /**
  * HTML 스냅샷이 아니라 "무엇이 반드시 들어가고, 무엇이 절대 새면 안 되는가"를 단언한다.

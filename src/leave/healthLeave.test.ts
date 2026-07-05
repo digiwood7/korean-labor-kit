@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { healthLeaveDeduction, DAILY_WORKING_HOURS } from "./healthLeave.js";
+import { healthLeaveDeduction, DAILY_WORKING_HOURS } from "./healthLeave";
 
 /**
  * 원본의 lib/leave/healthLeave.test.ts(node:test)를 vitest로 이식했다. 산식은 원본과 동일하다.

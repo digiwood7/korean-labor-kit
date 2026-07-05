@@ -10,7 +10,7 @@ import {
   calculateTotalLeaveByCycle,
   computeNewCycleSeed,
   healthLeaveDeduction,
-} from "../src/leave/index.js";
+} from "../src/leave/index";
 
 const leaveStartDate = "2021-03-02"; // 연차 산정 기준일(입사일 등)
 

@@ -9,7 +9,7 @@
 import {
   calcRegularOvertimePay,
   calcWeekendTripPay,
-} from "../src/overtime/index.js";
+} from "../src/overtime/index";
 
 const wage = 15072; // 시간당 통상임금(원) — 가상 값
 

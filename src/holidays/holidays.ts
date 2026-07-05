@@ -11,7 +11,7 @@
  * 대체공휴일은 KASI가 `isHoliday: "Y"` 항목으로 내려주며, 폴백 표에도 포함돼 있다.
  */
 
-import { DEFAULT_HOLIDAYS_WITH_NAMES } from "./fallbackHolidays.js";
+import { DEFAULT_HOLIDAYS_WITH_NAMES } from "./fallbackHolidays";
 
 /** 주입 가능한 fetch의 최소 응답 형태 (전역 fetch의 Response가 이 형태를 만족한다). */
 export interface HolidayFetchResponse {

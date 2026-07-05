@@ -4,8 +4,8 @@
  * 개별 모듈(`src/overtime`, `src/leave`, `src/holidays`, `src/payroll`)만 통째로 복사해도
  * 각각 독립적으로 동작한다. 이 파일은 킷을 npm 의존성처럼 통째로 설치해 쓸 때의 편의용 재수출이다.
  */
-export * from "./overtime/index.js";
-export * from "./leave/index.js";
-export * from "./holidays/index.js";
-export * from "./payroll/index.js";
-export * from "./certificate/index.js";
+export * from "./overtime/index";
+export * from "./leave/index";
+export * from "./holidays/index";
+export * from "./payroll/index";
+export * from "./certificate/index";

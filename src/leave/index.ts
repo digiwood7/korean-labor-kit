@@ -4,19 +4,19 @@ export {
   BASE_LEAVE_DAYS,
   MAX_LEAVE_FIRST_YEAR,
   MAX_LEAVE_LIMIT,
-} from "./constants.js";
+} from "./constants";
 export {
   getLeaveCyclePeriod,
   getLeaveCycleYear,
   getMonthsDifference,
   getYearsDifference,
   parseDate,
-} from "./utils.js";
+} from "./utils";
 export {
   calculateFirstYearLeave,
   calculateRegularLeave,
   calculateTotalLeaveByCycle,
   getLeaveCalculationDetails,
-} from "./accrual.js";
-export { computeNewCycleSeed, type NewCycleSeed } from "./cycleSeed.js";
-export { DAILY_WORKING_HOURS, healthLeaveDeduction } from "./healthLeave.js";
+} from "./accrual";
+export { computeNewCycleSeed, type NewCycleSeed } from "./cycleSeed";
+export { DAILY_WORKING_HOURS, healthLeaveDeduction } from "./healthLeave";

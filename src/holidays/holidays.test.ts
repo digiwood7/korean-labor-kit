@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { HolidayClient, isWeekend, type HolidayFetch } from "./holidays.js";
+import { HolidayClient, isWeekend, type HolidayFetch } from "./holidays";
 
 /**
  * 공휴일 클라이언트 테스트.

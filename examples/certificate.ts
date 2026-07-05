@@ -11,7 +11,7 @@ import { join } from "node:path";
 import {
   buildEmploymentCertificateHtml,
   nextCertificateNumber,
-} from "../src/certificate/index.js";
+} from "../src/certificate/index";
 
 // 발급번호 채번 — 실제로는 "직전 번호"를 각자 DB에서 구해 넘긴다.
 const certificateNumber = nextCertificateNumber(2026, 41); // "2026-0042"

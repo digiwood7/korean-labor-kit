@@ -6,7 +6,7 @@
  * 문자열**만 돌려준다. 외부 CSS/폰트/스크립트 의존이 0이라 어디서든(서버·브라우저·PDF 변환기)
  * 그대로 쓸 수 있다. 레이아웃·주민번호 마스킹 규칙은 원본을 보존했다.
  */
-import { formatDateKr, maskResidentId, type MaskMode } from "./format.js";
+import { formatDateKr, maskResidentId, type MaskMode } from "./format";
 
 /** 재직증명서에 필요한 직원 정보(이 킷 자체 입력 타입 — 외부 타입에 종속되지 않는다) */
 export interface CertificateEmployee {

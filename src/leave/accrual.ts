@@ -8,8 +8,8 @@ import {
   BASE_LEAVE_DAYS,
   ADDITIONAL_LEAVE_START_YEAR,
   ADDITIONAL_LEAVE_CYCLE,
-} from "./constants.js";
-import { getMonthsDifference, getYearsDifference, parseDate } from "./utils.js";
+} from "./constants";
+import { getMonthsDifference, getYearsDifference, parseDate } from "./utils";
 
 /**
  * Date를 로컬(설정 시간대) 기준 "YYYY-MM-DD"로 변환한다.

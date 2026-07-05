@@ -3,8 +3,8 @@ import {
   calculateFirstYearLeave,
   calculateRegularLeave,
   calculateTotalLeaveByCycle,
-} from "./accrual.js";
-import { parseDate } from "./utils.js";
+} from "./accrual";
+import { parseDate } from "./utils";
 
 /**
  * 연차 발생 산식 테스트 (신규 추가).

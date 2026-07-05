@@ -3,15 +3,15 @@ export {
   residentIdToBirthDate,
   maskResidentId,
   type MaskMode,
-} from "./format.js";
+} from "./format";
 export {
   nextCertificateNumber,
   parseCertificateSeq,
   type CertificateNumberOptions,
-} from "./certificateNumber.js";
+} from "./certificateNumber";
 export {
   buildEmploymentCertificateHtml,
   type CertificateInput,
   type CertificateEmployee,
   type CertificateCompany,
-} from "./employmentCertificate.js";
+} from "./employmentCertificate";

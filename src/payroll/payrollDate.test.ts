@@ -4,7 +4,7 @@ import {
   getOvertimePeriod,
   getPayday,
   getPayrollMonth,
-} from "./payrollDate.js";
+} from "./payrollDate";
 
 /**
  * 원본의 lib/utils/payrollDate.test.ts에 있던 케이스를 vitest 단언으로 이식했다.

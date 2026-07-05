@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { nextCertificateNumber, parseCertificateSeq } from "./certificateNumber.js";
+import { nextCertificateNumber, parseCertificateSeq } from "./certificateNumber";
 
 describe("nextCertificateNumber", () => {
   it("첫 발급(직전 0)은 0001", () => {

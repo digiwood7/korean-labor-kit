@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { computeNewCycleSeed } from "./cycleSeed.js";
+import { computeNewCycleSeed } from "./cycleSeed";
 
 /**
  * 원본의 lib/leave/cycleSeed.test.ts(node:test)를 vitest로 이식했다.

@@ -4,7 +4,7 @@ import {
   calcRegularOvertimePay,
   calcWeekendTripPay,
   getDayType,
-} from "./laborPay.js";
+} from "./laborPay";
 
 /**
  * 원본의 lib/overtime/laborPay.test.ts(node:test)를 vitest로 이식했다.

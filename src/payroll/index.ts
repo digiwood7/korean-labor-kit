@@ -5,4 +5,4 @@ export {
   getPayrollMonth,
   type OvertimePeriod,
   type PayrollDateOptions,
-} from "./payrollDate.js";
+} from "./payrollDate";

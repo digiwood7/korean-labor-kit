@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { formatDateKr, residentIdToBirthDate, maskResidentId } from "./format.js";
+import { formatDateKr, residentIdToBirthDate, maskResidentId } from "./format";
 
 /**
  * 원본의 lib/certificate/format.test.ts(node:test)를 vitest로 이식했다.

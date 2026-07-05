@@ -6,7 +6,7 @@
  * 차감**해 저장해야 한다. 그래야 기존 화면/다른 직원 데이터를 건드리지 않고
  * 이월이 잔여에 정확히 반영된다.
  */
-import { calculateTotalLeaveByCycle } from "./accrual.js";
+import { calculateTotalLeaveByCycle } from "./accrual";
 
 export interface NewCycleSeed {
   grant: number;     // 공식 발생량(총)

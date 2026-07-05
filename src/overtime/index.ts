@@ -9,9 +9,9 @@ export {
   type LaborCalcResult,
   type TripPayResult,
   type WorkRuleOptions,
-} from "./laborPay.js";
+} from "./laborPay";
 export {
   DEFAULT_WEEKEND_TRIP_MIN_AMOUNT,
   WEEKEND_TRIP_WORK_TYPE,
   resolveTripMinAmount,
-} from "./weekendTrip.js";
+} from "./weekendTrip";
