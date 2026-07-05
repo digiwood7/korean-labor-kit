@@ -1,0 +1,42 @@
+{
+  "name": "korean-labor-kit",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "한국 근로기준법 기반 계산 코어 — 연장·야간·휴일 근로수당(제56조 배율), 연차(발생·가산·이월), 공휴일(KASI 특일정보 API), 급여월/정산기간 계산. 빌드 없이 TS 소스를 그대로 복사해서 쓰는 것을 전제로 한다.",
+  "keywords": [
+    "korea",
+    "labor",
+    "payroll",
+    "overtime",
+    "annual-leave",
+    "korean-holidays",
+    "근로기준법",
+    "연차",
+    "연장근로수당",
+    "공휴일"
+  ],
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./overtime": "./src/overtime/index.ts",
+    "./leave": "./src/leave/index.ts",
+    "./holidays": "./src/holidays/index.ts",
+    "./payroll": "./src/payroll/index.ts",
+    "./certificate": "./src/certificate/index.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
